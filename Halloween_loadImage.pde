@@ -3,7 +3,8 @@ void setup() {
  background(255);
  img = loadImage("pumpkin.jpg.jpg");
  image(img,0,0,width*1,height*0.8);
- 
+
+void draw() {
  fill(0);
 textAlign(CENTER);
 textSize(13);
